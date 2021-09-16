@@ -82,12 +82,6 @@ void Graph::get_colors() const
 
 void Graph::get_adjList() const
 {
-	/*for (auto& list : adjLists)
-	{
-		for (auto& node : list)
-			cout << node << ' ';
-		cout << endl;
-	}*/
 	for (int i = 0; i < adjLists.size(); ++i)
 	{
 		for (auto& node : adjLists[i])
