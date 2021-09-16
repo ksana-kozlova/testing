@@ -86,7 +86,7 @@ void Graph::get_adjList() const
 	{
 		for (auto& node : adjLists[i])
 			cout << node << ' ';
-//		cout << endl;
+		cout << endl;
 	}
 }
 
