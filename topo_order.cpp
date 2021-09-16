@@ -16,7 +16,7 @@ using namespace std;
 int main()
 {
 	Graph g("input.txt");
-	//g.get_colors();
+	g.get_colors();
 	//g.get_adjList();
 	g.topo_dfs(1);
 

@@ -21,6 +21,7 @@ private:
 	int timer = 0;
 	vector<int> ent;
 	vector<int> out;
+	vector<string> features;
 
 public:
 	Graph(const string& path);
