@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <vector>
 #include <list>
@@ -9,19 +9,19 @@
 
 using namespace std;
 
-void dfs(int &s, vector<int> &color, list<int>* &adjLists)
-{
+// void dfs(int &s, vector<int> &color, list<int>* &adjLists)
+// {
 	
-	color[s-1] = 1;
-	for (auto& u : adjLists[s-1])
-	{
-		if (color[u-1] == 0)
-		{
-			dfs(u, color, adjLists);
-		}
-	}
-	color[s-1] = 2;
-}
+// 	color[s-1] = 1;
+// 	for (auto& u : adjLists[s-1])
+// 	{
+// 		if (color[u-1] == 0)
+// 		{
+// 			dfs(u, color, adjLists);
+// 		}
+// 	}
+// 	color[s-1] = 2;
+// }
 
 vector<int> split(const string& s, char delimiter)
 {
@@ -70,4 +70,4 @@ int main()
 	getchar();
 	return 0;
 
-}*/
+}
